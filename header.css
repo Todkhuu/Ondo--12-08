@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #181818;
+}
+
+header {
+  max-width: 1200px;
+  margin: auto;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  padding: 0px 24px;
+}
+header h2 {
+  color: #fff;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+#header-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.header-menu svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+.header-menu svg:hover {
+  fill: #878787;
+}
+.header-menu h6 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* .header-menu svg:hover .header-menu h6 {
+  color: #878787;
+} */
+header button {
+  width: 104px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #181818;
+  border: none;
+  border: solid 0.1px #fff;
+  border-radius: 6px;
+}
+header button:hover {
+  background-color: #87878742;
+  border: solid 2px #fff;
+}
+header button svg {
+  width: 20px;
+  height: 23px;
+  fill: #fff;
+}
+header button h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.header-rights {
+  display: flex;
+  gap: 20px;
+}
+
+.header-bottom-container {
+  max-width: 1152px;
+  margin: auto;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header-bottom-container img {
+  width: 40px;
+  height: 40px;
+}
+.header-bottom-container p {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.header-bottom-container button {
+  width: 115px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff0098;
+  color: white;
+  font-family: sans-serif;
+  transition: box-shadow 0.3s linear;
+  cursor: pointer;
+}
+.header-bottom-container button:hover {
+  box-shadow: 2px 27px 25px 6px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px #ff00994f;
+}
