@@ -122,3 +122,63 @@
 .news-information button:hover {
   background-color: #cccccc48;
 }
+
+#information-part {
+  max-width: 1152px;
+  margin: auto;
+  height: 376px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.box {
+  width: 270px;
+  height: 376px;
+  background-color: #212121;
+  border-radius: 0px 0px 8px 8px;
+}
+.box img {
+  width: 270px;
+  height: 202px;
+  border-radius: 8px 8px 0px 0px;
+}
+.box-bottom {
+  padding: 32px 24px 24px 24px;
+}
+.bottom-button {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.bottom-button button {
+  width: 82px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #353535;
+  border: none;
+  color: #757575;
+  font-family: sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.bottom-button button:hover {
+  color: #ff0098;
+}
+.box-bottom h4 {
+  height: 44px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.box-bottom h4:hover {
+  text-decoration: underline;
+}
+.box-bottom p {
+  color: #6f6f6f;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 30px;
+}

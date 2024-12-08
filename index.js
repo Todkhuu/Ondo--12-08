@@ -79,3 +79,51 @@ for (let i = 0; i < navInfo.length; i++) {
   navbars += navbar;
 }
 navParent.innerHTML = navbars;
+
+let informationParent = document.getElementById("information-part");
+let informationPartInfo = [
+  {
+    imgUrl: "./a/hiimel-daguul.jpg",
+    buttontext: "Мэдээлэл",
+    buttontext1: "Урамшуулал",
+    text4: "100 сая төгрөгийн бэлэгтэй урамшуулал эхэллээ",
+    textp: "2024 оны 10-р сарын 28",
+  },
+  {
+    imgUrl: "./a/glactic-100-small.jpg",
+    buttontext: "Мэдээлэл",
+    buttontext1: "Урамшуулал",
+    text4: "Урамшуулалд хэрхэн оролцох вэ?",
+    textp: "2024 оны 10-р сарын 16",
+  },
+  {
+    imgUrl: "./a/samsung.webp",
+    buttontext: "Мэдээлэл",
+    buttontext1: "Урамшуулал",
+    text4: "Samsung-ийн утаснуудад ашигладаг сүүлийн үеийн технологиуд",
+    textp: "2024 оны 10-р сарын 01",
+  },
+  {
+    imgUrl: "./a/ios18.jpg",
+    buttontext: "Мэдээлэл",
+    buttontext1: "Урамшуулал",
+    text4: "Apple компани Siri дээр хийж байгаа сайжруулалтууд",
+    textp: "2024 оны 10-р сарын 01",
+  },
+];
+let informations = "";
+for (let i = 0; i < informationPartInfo.length; i++) {
+  let information = `<div class="box">
+                     <img src="${informationPartInfo[i].imgUrl}" alt="" />
+                      <div class="box-bottom">
+                       <div class="bottom-button">
+                        <button>${informationPartInfo[i].buttontext}</button>
+                        <button>${informationPartInfo[i].buttontext1}</button>
+                       </div>
+                       <h4>${informationPartInfo[i].text4}</h4>
+                       <p>${informationPartInfo[i].textp}</p>
+                      </div>
+                     </div>`;
+  informations += information;
+}
+informationParent.innerHTML = informations;
