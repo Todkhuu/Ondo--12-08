@@ -20,10 +20,32 @@ header {
   z-index: 999;
   padding: 0px 24px;
 }
-header h2 {
+.ondo-logo-parent {
+  display: flex;
+  align-items: center;
+}
+.ondo-logo-parent h2 {
   color: #fff;
   cursor: pointer;
   font-family: sans-serif;
+}
+.ondo-logo-header {
+  display: flex;
+  align-items: center;
+}
+.ondo-svg2 {
+  width: 19px;
+  height: 18px;
+  fill: #fff;
+  cursor: pointer;
+}
+.ondo-svg3 {
+  width: 5px;
+  height: 5px;
+  fill: #ff0098;
+  margin-left: 2px;
+  cursor: pointer;
+  display: flex;
 }
 #header-right {
   display: flex;
