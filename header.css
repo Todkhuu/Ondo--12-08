@@ -14,7 +14,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #181818;
   position: sticky;
+  top: 0;
+  z-index: 999;
   padding: 0px 24px;
 }
 header h2 {
