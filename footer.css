@@ -15,10 +15,20 @@ footer {
 .footer-left {
   width: 384px;
 }
+.ondo-logo {
+  display: flex;
+}
 .ondo-svg {
   width: 28px;
   height: 28px;
   fill: #fff;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.ondo-svg1 {
+  width: 8px;
+  height: 8px;
+  fill: #ff0098;
   margin-left: 8px;
   cursor: pointer;
 }
