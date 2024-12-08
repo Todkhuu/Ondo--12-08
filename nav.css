@@ -3,7 +3,6 @@
   margin: auto;
   height: 117px;
   margin-top: 32px;
-  margin-bottom: 32px;
   display: flex;
   gap: 1px;
 }
@@ -40,4 +39,59 @@
   color: #ff0098;
   font-family: sans-serif;
   font-size: 14px;
+}
+
+.middle-permission {
+  max-width: 1160px;
+  margin: auto;
+  height: 321px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+.bck-img {
+  width: 572px;
+  height: 321px;
+  border-radius: 8px;
+  background-image: url(./a/month-bag.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  padding: 24px;
+  transition: opacity 0.3s linear;
+}
+.bck-img:hover {
+  opacity: 0.6;
+}
+.bck-img button {
+  width: 64px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  font-family: sans-serif;
+}
+.bck-img1 {
+  width: 572px;
+  height: 321px;
+  border-radius: 8px;
+  background-image: url(./a/Serial.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  padding: 24px;
+  transition: opacity 0.3s linear;
+}
+.bck-img1:hover {
+  opacity: 0.6;
+}
+.bck-img1 button {
+  width: 64px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  font-family: sans-serif;
 }
